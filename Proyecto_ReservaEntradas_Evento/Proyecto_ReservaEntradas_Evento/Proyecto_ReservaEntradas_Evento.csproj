@@ -50,6 +50,26 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2-columns-left.html" />
+    <Content Include="2-columns-right.html" />
+    <Content Include="3-columns.html" />
+    <Content Include="full-width.html" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\arrows.png" />
+    <Content Include="images\bullets.png" />
+    <Content Include="images\ImagenEvento1.jpg" />
+    <Content Include="images\ImagenEvento2.jpg" />
+    <Content Include="images\ImagenEvento3.jpg" />
+    <Content Include="images\ImagenEvento4.jpg" />
+    <Content Include="images\ImagenEvento5.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\Logo TICKET.png" />
+    <Content Include="images\shadow.png" />
+    <Content Include="index.html" />
+    <Content Include="inland.css" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery.nivo.slider.js" />
+    <Content Include="js\jquery.nivo.slider.pack.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -59,7 +79,27 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra.Master.cs">
+      <DependentUpon>PaginaMaestra.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaMaestra.Master.designer.cs">
+      <DependentUpon>PaginaMaestra.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\nivo-slider2.7.1.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PaginaMaestra.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
