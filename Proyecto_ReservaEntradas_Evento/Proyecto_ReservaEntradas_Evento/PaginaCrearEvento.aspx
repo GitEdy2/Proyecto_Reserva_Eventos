@@ -54,7 +54,11 @@
                 </span>
                 <br />
                 <br />
-&nbsp;Imagen_Evento:<br />
+&nbsp;Imagen_Evento: <span style="font-size: medium">
+                <asp:TextBox ID="txtImagen" runat="server" BackColor="#CCCCCC" 
+                    Height="21px" Width="77px"></asp:TextBox>
+                </span>
+                <br />
                 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <br />

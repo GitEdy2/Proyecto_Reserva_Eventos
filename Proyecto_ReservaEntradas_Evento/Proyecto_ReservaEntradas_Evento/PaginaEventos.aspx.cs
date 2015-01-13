@@ -12,6 +12,8 @@ namespace Proyecto_ReservaEntradas_Evento
 {
     public partial class PaginaEventos : System.Web.UI.Page
     {
+        private string selectEvento;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,6 +22,13 @@ namespace Proyecto_ReservaEntradas_Evento
         protected void btnNuevoEvento_Click(object sender, EventArgs e)
         {
             Server.Transfer("PaginaCrearEvento.aspx");
+        }
+
+        protected void BtnFichaEvento_Click(object sender, EventArgs e)
+        {
+            selectEvento = DDLElegirEvento.SelectedValue.ToString();
+            Session.Add("idEvento", selectEvento);
+            Server.Transfer("PaginaFichaEvento.aspx");
         }
     }
 }

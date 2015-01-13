@@ -30,12 +30,14 @@ namespace Proyecto_ReservaEntradas_Evento
             evento.InvitadoEvento = txtInvitado.Text;
             evento.FechaEvento = txtFechaEvento.Text;
             evento.CupoEvento = Convert.ToInt32(txtCupoEvento.Text);
+            evento.ImagenEvento = txtImagen.Text;
 
             bool exito = dtsEvento.ingresarEventoOBJ(evento);
 
             if (exito == true)
             {
                 lblEvento.Text = "Evento Ingresado Correctamente";
+                Server.Transfer("MensajeEventoCreado.aspx");
             }
             else
             {

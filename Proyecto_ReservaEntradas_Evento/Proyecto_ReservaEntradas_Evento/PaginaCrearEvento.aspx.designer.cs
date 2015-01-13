@@ -76,6 +76,15 @@ namespace Proyecto_ReservaEntradas_Evento {
         protected global::System.Web.UI.WebControls.TextBox txtCupoEvento;
         
         /// <summary>
+        /// txtImagen control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtImagen;
+        
+        /// <summary>
         /// btnCrearEvento control.
         /// </summary>
         /// <remarks>

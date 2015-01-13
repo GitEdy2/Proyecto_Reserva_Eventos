@@ -10,7 +10,7 @@
             </td>
             <td style="height: 505px">
 &nbsp; ID_Evento:
-                <asp:TextBox ID="txtIdEvento" runat="server" BackColor="#CCCCCC" Width="358px"></asp:TextBox>
+                <asp:TextBox ID="txtIdEvento" runat="server" BackColor="#CCCCCC" Width="137px"></asp:TextBox>
                 <br />
                 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Titulo:
@@ -20,7 +20,7 @@
                 <br />
 &nbsp;Descripción:
                 <asp:TextBox ID="txtDescripcionEvento" runat="server" BackColor="#CCCCCC" 
-                    Width="358px"></asp:TextBox>
+                    Width="358px" Height="79px" TextMode="MultiLine"></asp:TextBox>
                 <br />
                 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lugar:
@@ -41,6 +41,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cupo:
                 <asp:TextBox ID="txtCupoEvento" runat="server" BackColor="#CCCCCC" 
                     TextMode="Number" Width="92px"></asp:TextBox>
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Imagen:
+                <asp:TextBox ID="txtImagen" runat="server" BackColor="#CCCCCC" Width="92px"></asp:TextBox>
                 <br />
                 <br />
                 <br />

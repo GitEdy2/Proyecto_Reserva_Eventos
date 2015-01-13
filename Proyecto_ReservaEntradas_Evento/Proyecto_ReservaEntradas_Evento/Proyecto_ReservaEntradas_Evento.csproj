@@ -70,6 +70,7 @@
     <Content Include="js\jquery-1.7.1.min.js" />
     <Content Include="js\jquery.nivo.slider.js" />
     <Content Include="js\jquery.nivo.slider.pack.js" />
+    <Content Include="MensajeEventoCreado.aspx" />
     <Content Include="PaginaCrearEvento.aspx" />
     <Content Include="PaginaEventos.aspx" />
     <Content Include="PaginaFichaEvento.aspx" />
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MensajeEventoCreado.aspx.cs">
+      <DependentUpon>MensajeEventoCreado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MensajeEventoCreado.aspx.designer.cs">
+      <DependentUpon>MensajeEventoCreado.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginaCrearEvento.aspx.cs">
       <DependentUpon>PaginaCrearEvento.aspx</DependentUpon>
