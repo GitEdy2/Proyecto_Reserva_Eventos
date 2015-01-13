@@ -2,3 +2,6 @@ C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntr
 C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\bin\Debug\CapaDatos.pdb
 C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\bin\Debug\CapaNegocio.dll
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\bin\Debug\CapaNegocio.pdb
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache

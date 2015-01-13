@@ -15,7 +15,8 @@
             <td style="width: 415px">
                 &nbsp;<br />
 &nbsp;<span style="font-size: medium">&nbsp;&nbsp;&nbsp;&nbsp; ID_Evento: </span>
-                <asp:TextBox ID="txtIdEvento" runat="server" BackColor="#CCCCCC" Height="21px"></asp:TextBox>
+                <asp:TextBox ID="txtIdEvento" runat="server" BackColor="#CCCCCC" Height="21px" 
+                    Width="142px"></asp:TextBox>
                 <br />
                 <br />
 &nbsp;<span style="font-size: medium"> Titulo_Evento:
@@ -25,7 +26,7 @@
                 <br />
 &nbsp;<span style="font-size: medium">&nbsp;&nbsp;&nbsp; Descripcion:
                 <asp:TextBox ID="txtDescripcion" runat="server" BackColor="#CCCCCC" 
-                    Height="21px" Width="274px"></asp:TextBox>
+                    Height="62px" Width="274px" TextMode="MultiLine"></asp:TextBox>
                 </span>
                 <br />
                 <br />
@@ -43,26 +44,37 @@
                 <br />
 &nbsp;<span style="font-size: medium">&nbsp; Fecha_Evento:
                 <asp:TextBox ID="txtFechaEvento" runat="server" BackColor="#CCCCCC" 
-                    Height="21px" Width="267px"></asp:TextBox>
+                    Height="21px" Width="128px" TextMode="Date"></asp:TextBox>
                 </span>
                 <br />
                 <br />
 &nbsp;<span style="font-size: medium">&nbsp;&nbsp; Cupo_Evento:
                 <asp:TextBox ID="txtCupoEvento" runat="server" BackColor="#CCCCCC" 
-                    Height="21px"></asp:TextBox>
+                    Height="21px" TextMode="Number" Width="77px"></asp:TextBox>
                 </span>
                 <br />
                 <br />
-&nbsp;<span style="font-size: medium">Imagen_Evento:</span>
+&nbsp;Imagen_Evento:<br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="btnCrearEvento" runat="server" onclick="btnCrearEvento_Click" 
+                    Text="Crear Evento" Width="198px" />
+                <br />
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="lblEvento" runat="server"></asp:Label>
                 <br />
                 <br />
                 &nbsp;</td>
-            <td>
-                &nbsp;</td>
-            <td>
+            <td colspan="2">
                 &nbsp;</td>
         </tr>
     </table>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <asp:LinkButton ID="LinkAtras" runat="server" 
+        PostBackUrl="~/PaginaEventos.aspx">&lt;&lt;Atrás</asp:LinkButton>
 </asp:Content>

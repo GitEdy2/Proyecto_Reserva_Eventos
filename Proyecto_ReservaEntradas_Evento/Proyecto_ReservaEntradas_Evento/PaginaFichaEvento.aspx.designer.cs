@@ -10,61 +10,79 @@
 namespace Proyecto_ReservaEntradas_Evento {
     
     
-    public partial class PaginaEventos {
+    public partial class PaginaFichaEvento {
         
         /// <summary>
-        /// GridView1 control.
+        /// txtIdEvento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.TextBox txtIdEvento;
         
         /// <summary>
-        /// SqlDataSource1 control.
+        /// txtTituloEvento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.TextBox txtTituloEvento;
         
         /// <summary>
-        /// DDLElegirEvento control.
+        /// txtDescripcionEvento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDLElegirEvento;
+        protected global::System.Web.UI.WebControls.TextBox txtDescripcionEvento;
         
         /// <summary>
-        /// SqlDataSource2 control.
+        /// txtLugarEvento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
+        protected global::System.Web.UI.WebControls.TextBox txtLugarEvento;
         
         /// <summary>
-        /// BtnFichaEvento control.
+        /// txtInvitadoEvento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnFichaEvento;
+        protected global::System.Web.UI.WebControls.TextBox txtInvitadoEvento;
         
         /// <summary>
-        /// btnNuevoEvento control.
+        /// txtFechaEvento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnNuevoEvento;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaEvento;
+        
+        /// <summary>
+        /// txtCupoEvento control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCupoEvento;
+        
+        /// <summary>
+        /// btnReservar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnReservar;
         
         /// <summary>
         /// LinkAtras control.

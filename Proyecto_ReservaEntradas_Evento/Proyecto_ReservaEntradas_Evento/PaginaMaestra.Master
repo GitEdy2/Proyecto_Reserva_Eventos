@@ -90,7 +90,10 @@
 				<h3><em><strong class="style1">I</strong></em><span class="style2"><em><strong 
                         class="style1">r a:</strong></em></span></h3>
 				<ul>
-                    <li><a href="LoginUsuario.aspx">Ir a Eventos</a></li>
+                    <li>
+                        <asp:LinkButton ID="LinkEventos" runat="server" 
+                            PostBackUrl="~/PaginaEventos.aspx">Ir a Eventos</asp:LinkButton>
+                    </li>
                     <li><a href="LoginUsuario.aspx">Ir a Registro de Compras</a></li>
                 </ul>
 			</div>

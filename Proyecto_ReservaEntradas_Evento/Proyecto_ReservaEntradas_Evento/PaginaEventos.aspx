@@ -8,8 +8,19 @@
         <tr>
             <td>
                 <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" 
-                    GridLines="None" Width="896px">
+                    GridLines="None" Width="896px" AutoGenerateColumns="False" 
+                    DataKeyNames="idEvento" DataSourceID="SqlDataSource1">
                     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                    <Columns>
+                        <asp:BoundField DataField="idEvento" HeaderText="idEvento" ReadOnly="True" 
+                            SortExpression="idEvento" />
+                        <asp:BoundField DataField="tituloEvento" HeaderText="tituloEvento" 
+                            SortExpression="tituloEvento" />
+                        <asp:BoundField DataField="lugarEvento" HeaderText="lugarEvento" 
+                            SortExpression="lugarEvento" />
+                        <asp:BoundField DataField="fechaEvento" HeaderText="fechaEvento" 
+                            SortExpression="fechaEvento" />
+                    </Columns>
                     <EditRowStyle BackColor="#999999" />
                     <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
                     <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
@@ -21,13 +32,41 @@
                     <SortedDescendingCellStyle BackColor="#FFFDF8" />
                     <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
                 </asp:GridView>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                    ConnectionString="<%$ ConnectionStrings:cadenaConexion %>" 
+                    SelectCommand="SELECT [idEvento], [tituloEvento], [lugarEvento], [fechaEvento] FROM [tbl_Evento]">
+                </asp:SqlDataSource>
             </td>
         </tr>
         <tr>
             <td>
                 <br />
 &nbsp;&nbsp;
-                <asp:Button ID="btnNuevoEvento" runat="server" Text="Crear evento" />
+                <br />
+&nbsp;<span style="font-size: medium">Elegir Evento:<asp:DropDownList ID="DDLElegirEvento" 
+                    runat="server" BackColor="#CCCCCC" DataSourceID="SqlDataSource2" 
+                    DataTextField="idEvento" DataValueField="idEvento" Height="16px" Width="176px">
+                </asp:DropDownList>
+                <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
+                    ConnectionString="<%$ ConnectionStrings:cadenaConexion %>" 
+                    SelectCommand="SELECT [idEvento] FROM [tbl_Evento]"></asp:SqlDataSource>
+&nbsp; </span>&nbsp;<br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="BtnFichaEvento" runat="server" Height="29px" 
+                    Text="Ver Ficha de Evento" Width="164px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp; <span style="font-size: xx-small">*Si desea crear un nuevo evento, haga clic en el 
+                siguiente botón:<br />
+                </span>
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="btnNuevoEvento" runat="server" Text="Crear evento" 
+                    Height="23px" onclick="btnNuevoEvento_Click" Width="135px" />
+                <br />
                 <br />
             </td>
         </tr>
