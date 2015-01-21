@@ -31,7 +31,13 @@ namespace Proyecto_ReservaEntradas_Evento
             txtFechaEvento.Text = fila["Fecha"].ToString();
             txtTituloEvento.Text = fila["Titulo"].ToString();
             txtCupoEvento.Text = fila["Cupo"].ToString();
-            txtImagen.Text = fila["Imagen"].ToString();           
+            txtImagen.Text = fila["Imagen"].ToString();
+        }
+
+        protected void btnReservar_Click(object sender, EventArgs e)
+        {
+            Session.Add("evento", strEvento);
+            Server.Transfer("PaginaCliente.aspx");
         }
     }
 }

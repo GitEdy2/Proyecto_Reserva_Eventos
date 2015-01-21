@@ -11,6 +11,7 @@ Nivo Slider v2.7.1 by Gilbert Pellegrom - http://nivo.dev7studios.com/
     border-width: 0;
 font-size:medium;
     margin:0;padding:0;vertical-align:baseline;
+    text-align: left;
 }
 
 /* HTML elements */

@@ -10,7 +10,7 @@
 namespace Proyecto_ReservaEntradas_Evento {
     
     
-    public partial class PaginaCrearEvento {
+    public partial class Pagina_Reserva_Entradas {
         
         /// <summary>
         /// txtIdEvento control.
@@ -22,102 +22,66 @@ namespace Proyecto_ReservaEntradas_Evento {
         protected global::System.Web.UI.WebControls.TextBox txtIdEvento;
         
         /// <summary>
-        /// txtTituloEvento control.
+        /// txtIdCliente control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTituloEvento;
+        protected global::System.Web.UI.WebControls.TextBox txtIdCliente;
         
         /// <summary>
-        /// txtDescripcion control.
+        /// txtIdReserva control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
+        protected global::System.Web.UI.WebControls.TextBox txtIdReserva;
         
         /// <summary>
-        /// txtLugarEvento control.
+        /// txtEntradas control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLugarEvento;
+        protected global::System.Web.UI.WebControls.TextBox txtEntradas;
         
         /// <summary>
-        /// txtInvitado control.
+        /// btnReservar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInvitado;
+        protected global::System.Web.UI.WebControls.Button btnReservar;
         
         /// <summary>
-        /// txtFechaEvento control.
+        /// lblReserva control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaEvento;
+        protected global::System.Web.UI.WebControls.Label lblReserva;
         
         /// <summary>
-        /// txtCupoEvento control.
+        /// ImagenEvento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCupoEvento;
+        protected global::System.Web.UI.WebControls.Image ImagenEvento;
         
         /// <summary>
-        /// txtImagen control.
+        /// LinkAtrás control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtImagen;
-        
-        /// <summary>
-        /// btnCrearEvento control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCrearEvento;
-        
-        /// <summary>
-        /// lblEvento control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEvento;
-        
-        /// <summary>
-        /// Image1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
-        
-        /// <summary>
-        /// LinkAtras control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkAtras;
+        protected global::System.Web.UI.WebControls.LinkButton LinkAtrás;
     }
 }

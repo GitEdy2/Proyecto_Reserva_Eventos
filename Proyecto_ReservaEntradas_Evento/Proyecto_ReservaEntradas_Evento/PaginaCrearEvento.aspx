@@ -74,7 +74,8 @@
                 <br />
                 &nbsp;</td>
             <td colspan="2">
-                &nbsp;</td>
+                <asp:Image ID="Image1" runat="server" />
+            </td>
         </tr>
     </table>
 </asp:Content>

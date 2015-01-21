@@ -52,6 +52,7 @@
                     SelectCommand="SELECT [idEvento] FROM [tbl_Evento]"></asp:SqlDataSource>
 &nbsp; </span>&nbsp;<br />
                 <br />
+                <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Button ID="BtnFichaEvento" runat="server" Height="29px" 
                     Text="Ver Ficha de Evento" Width="164px" onclick="BtnFichaEvento_Click" />

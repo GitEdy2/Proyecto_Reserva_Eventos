@@ -10,51 +10,42 @@
 namespace Proyecto_ReservaEntradas_Evento {
     
     
-    public partial class PaginaMaestra {
+    public partial class PaginaElegirCliente {
         
         /// <summary>
-        /// form1 control.
+        /// DDLCliente control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.DropDownList DDLCliente;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// SqlDataSource1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
         
         /// <summary>
-        /// ContentPlaceHolder2 control.
+        /// btnRegistroCompras control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder2;
+        protected global::System.Web.UI.WebControls.Button btnRegistroCompras;
         
         /// <summary>
-        /// LinkEventos control.
+        /// LinkAtras control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkEventos;
-        
-        /// <summary>
-        /// LinkRegistro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkRegistro;
+        protected global::System.Web.UI.WebControls.LinkButton LinkAtras;
     }
 }

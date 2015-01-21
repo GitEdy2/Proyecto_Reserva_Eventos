@@ -70,10 +70,17 @@
     <Content Include="js\jquery-1.7.1.min.js" />
     <Content Include="js\jquery.nivo.slider.js" />
     <Content Include="js\jquery.nivo.slider.pack.js" />
+    <Content Include="MensajeClienteCreado.aspx" />
     <Content Include="MensajeEventoCreado.aspx" />
+    <Content Include="MensajeReservaCreada.aspx" />
+    <Content Include="PaginaCliente.aspx" />
     <Content Include="PaginaCrearEvento.aspx" />
+    <Content Include="PaginaElegirCliente.aspx" />
     <Content Include="PaginaEventos.aspx" />
     <Content Include="PaginaFichaEvento.aspx" />
+    <Content Include="PaginaRegistroReservas.aspx" />
+    <Content Include="Pagina_FichaCliente.aspx" />
+    <Content Include="Pagina_Reserva_Entradas.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -90,6 +97,13 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MensajeClienteCreado.aspx.cs">
+      <DependentUpon>MensajeClienteCreado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MensajeClienteCreado.aspx.designer.cs">
+      <DependentUpon>MensajeClienteCreado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MensajeEventoCreado.aspx.cs">
       <DependentUpon>MensajeEventoCreado.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,12 +111,33 @@
     <Compile Include="MensajeEventoCreado.aspx.designer.cs">
       <DependentUpon>MensajeEventoCreado.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MensajeReservaCreada.aspx.cs">
+      <DependentUpon>MensajeReservaCreada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MensajeReservaCreada.aspx.designer.cs">
+      <DependentUpon>MensajeReservaCreada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaCliente.aspx.cs">
+      <DependentUpon>PaginaCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaCliente.aspx.designer.cs">
+      <DependentUpon>PaginaCliente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PaginaCrearEvento.aspx.cs">
       <DependentUpon>PaginaCrearEvento.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PaginaCrearEvento.aspx.designer.cs">
       <DependentUpon>PaginaCrearEvento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaElegirCliente.aspx.cs">
+      <DependentUpon>PaginaElegirCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaElegirCliente.aspx.designer.cs">
+      <DependentUpon>PaginaElegirCliente.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginaEventos.aspx.cs">
       <DependentUpon>PaginaEventos.aspx</DependentUpon>
@@ -124,6 +159,27 @@
     </Compile>
     <Compile Include="PaginaMaestra.Master.designer.cs">
       <DependentUpon>PaginaMaestra.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaRegistroReservas.aspx.cs">
+      <DependentUpon>PaginaRegistroReservas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaRegistroReservas.aspx.designer.cs">
+      <DependentUpon>PaginaRegistroReservas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina_FichaCliente.aspx.cs">
+      <DependentUpon>Pagina_FichaCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina_FichaCliente.aspx.designer.cs">
+      <DependentUpon>Pagina_FichaCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina_Reserva_Entradas.aspx.cs">
+      <DependentUpon>Pagina_Reserva_Entradas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina_Reserva_Entradas.aspx.designer.cs">
+      <DependentUpon>Pagina_Reserva_Entradas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -151,7 +207,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50385</DevelopmentServerPort>
+          <DevelopmentServerPort>51118</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

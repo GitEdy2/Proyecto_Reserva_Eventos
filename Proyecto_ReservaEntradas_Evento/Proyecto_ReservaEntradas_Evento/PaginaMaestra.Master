@@ -94,7 +94,10 @@
                         <asp:LinkButton ID="LinkEventos" runat="server" 
                             PostBackUrl="~/PaginaEventos.aspx">Ir a Eventos</asp:LinkButton>
                     </li>
-                    <li><a href="LoginUsuario.aspx">Ir a Registro de Compras</a></li>
+                    <li>
+                        <asp:LinkButton ID="LinkRegistro" runat="server" 
+                            PostBackUrl="~/PaginaElegirCliente.aspx">Ir a Registro de Reservas</asp:LinkButton>
+                    </li>
                 </ul>
 			</div>
 		</div>

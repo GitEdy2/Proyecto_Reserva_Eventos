@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AyudaImagen.cs" />
+    <Compile Include="clsCliente.cs" />
     <Compile Include="clsConexionBDs.cs" />
     <Compile Include="clsEvento.cs" />
+    <Compile Include="clsReserva.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
