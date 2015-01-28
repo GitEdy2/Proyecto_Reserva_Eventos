@@ -1,0 +1,7 @@
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\bin\Release\CapaDatos.dll
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\bin\Release\CapaDatos.pdb
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\bin\Release\CapaNegocio.dll
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\bin\Release\CapaNegocio.pdb
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\obj\Release\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\CapaDatos\obj\Release\CapaDatos.pdb

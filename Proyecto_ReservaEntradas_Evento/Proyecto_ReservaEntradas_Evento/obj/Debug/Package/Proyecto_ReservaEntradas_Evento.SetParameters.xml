@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/Proyecto_ReservaEntradas_Evento_deploy" />
+  <setParameter name="cadenaConexion-Web.config Connection String" value="Data Source=(local);Initial Catalog=Proyecto_ReservaEntradas_Eventos;Integrated Security=True" />
+  <setParameter name="Proyecto_ReservaEntradas_EventosConnectionString-Web.config Connection String" value="Data Source=(local);Initial Catalog=Proyecto_ReservaEntradas_Eventos;Integrated Security=True" />
+</parameters>

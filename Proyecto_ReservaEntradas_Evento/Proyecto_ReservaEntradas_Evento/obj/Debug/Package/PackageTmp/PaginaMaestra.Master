@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="Proyecto_ReservaEntradas_Evento.PaginaMaestra" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" media="all" href="inland.css" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<title>Rapid_Eventos</title>
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+        .style2
+        {
+            font-size: large;
+        }
+        .style3
+        {
+            font-size: larger;
+        }
+        </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+<div id="wrapper960" class="clearfix">
+	<div id="toplinks">
+		<ul class="toplinks_links">
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<div id="header" class="clearfix shadow">
+		<div id="sitetitle" class="clearfix">
+			<h1><a href="Home.aspx" class="style3">RapidEventos</a></h1>
+		</div>
+		<div id="nav" class="clearfix">
+			<ul>
+				<li><a class="current" href="Home.aspx">Home</a></li>
+				<li><a href="#">Eventos</a></li>
+				<li><a href="#">Soporte</a></li>
+				<li><a href="#">Contactenos</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="slider-wrapper">
+		<div id="slider" class="nivoSlider">
+			<img src="images/ImagenEvento1.jpg" alt="" />
+			<img src="images/ImagenEvento2.jpg" alt="" />
+			<img src="images/ImagenEvento3.jpg" alt="" />
+			<img src="images/ImagenEvento4.jpg" alt="" />
+			<img src="images/ImagenEvento5.jpg" alt="" />
+		</div>
+	</div>
+
+	<div id="content" class="clearfix shadow">
+		<h2>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </h2>
+		<p>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </p>
+	</div>
+
+	<div id="extended" class="clearfix shadow">
+		<div id="trio1">
+			<div class="inner">
+				<h3><em><strong class="style1">Nuestros Servicios:</strong></em></h3>
+				<ul>
+                    <li>Crear&nbsp;Eventos.</li>
+                    <li>Compra de boletos.</li>
+                    <li>Consultar informacion de invitados, lugares y fechas de eventos.</li>
+                </ul>
+			</div>
+		</div>
+
+		<div id="trio2">
+			<div class="inner">
+				<h3><em><strong class="style1">I</strong></em><span class="style2"><em><strong 
+                        class="style1">r a:</strong></em></span></h3>
+				<ul>
+                    <li>
+                        <asp:LinkButton ID="LinkEventos" runat="server" 
+                            PostBackUrl="~/PaginaEventos.aspx">Ir a Eventos</asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkRegistro" runat="server" 
+                            PostBackUrl="~/PaginaElegirCliente.aspx">Ir a Registro de Reservas</asp:LinkButton>
+                    </li>
+                </ul>
+			</div>
+		</div>
+
+		<div id="trio3">
+			<div class="inner">
+				<h3><em><strong class="style1">Mision:</strong></em></h3>
+				<p>&quot;<em>Dar un servicio claro y transperente e incentivar actividades culturas y 
+                    profesionales</em>&quot;.</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" class="shadow">
+		<p>© 2014 Edison | Universidad de las Americas</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider();
+    });
+</script>
+    </form>
+</body>
+</html>

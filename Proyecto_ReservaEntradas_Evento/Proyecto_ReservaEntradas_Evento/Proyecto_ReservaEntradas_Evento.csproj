@@ -30,6 +30,26 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="cadenaConexion-Deployment" Order="1" Enabled="False">
+          <Destination Path="Data Source=Edison-PC%3bInitial Catalog=Proyecto_ReservaEntradas_Eventos%3bIntegrated Security=True" />
+          <Object Type="dbFullSql">
+            <PreSource Path="Data Source=%28local%29%3bInitial Catalog=Proyecto_ReservaEntradas_Eventos%3bIntegrated Security=True" ScriptSchema="True" ScriptData="True" CopyAllFullTextCatalogs="False" />
+            <Source Path="obj\Release\AutoScripts\cadenaConexion-Deployment_SchemaAndData.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+        <ObjectGroup Name="Proyecto_ReservaEntradas_EventosConnectionString-Deployment" Order="2">
+          <Destination Path="" />
+          <Object Type="dbFullSql">
+            <PreSource Path="Data Source=%28local%29%3bInitial Catalog=Proyecto_ReservaEntradas_Eventos%3bIntegrated Security=True" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" />
+            <Source Path="obj\Release\AutoScripts\Proyecto_ReservaEntradas_EventosConnectionString-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -81,12 +101,15 @@
     <Content Include="PaginaRegistroReservas.aspx" />
     <Content Include="Pagina_FichaCliente.aspx" />
     <Content Include="Pagina_Reserva_Entradas.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>

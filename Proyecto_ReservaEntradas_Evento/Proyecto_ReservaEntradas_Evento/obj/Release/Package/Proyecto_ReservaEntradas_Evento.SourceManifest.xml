@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <contentPath path="C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\Proyecto_ReservaEntradas_Evento\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\Proyecto_ReservaEntradas_Evento\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\Proyecto_ReservaEntradas_Evento\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <dbFullSql path="C:\Users\solucomp\Documents\GitHub\Proyecto_Reserva_Eventos\Proyecto_ReservaEntradas_Evento\Proyecto_ReservaEntradas_Evento\obj\Release\AutoScripts\Proyecto_ReservaEntradas_EventosConnectionString-Deployment_SchemaOnly.sql" Transacted="True" />
+</sitemanifest>
